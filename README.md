@@ -24,8 +24,11 @@ CC0: Public Domain
 ¦           data.csv
 ¦           
 +---notebooks
-        1.0-Preprocessing.ipynb
-        2.0-EDA.ipynb
+        1.0-Introduction.ipynb
+        2.0-Preprocessing.ipynb
+        3.0-EDA.ipynb
+        4.0-Reflection-References.ipynb
+
 ```
 
 ## Dataset overview
