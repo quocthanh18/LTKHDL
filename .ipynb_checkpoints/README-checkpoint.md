@@ -18,14 +18,14 @@ CC0: Public Domain
 ```
 +---data
 ¦   +---processed
-¦   ¦       processed.csv
+¦   ¦       data.csv
 ¦   ¦       
 ¦   +---raw
 ¦           data.csv
 ¦           
 +---notebooks
         1.0-Introduction.ipynb
-        2.0-Preprocessing_Exploring.ipynb
+        2.0-Preprocessing.ipynb
         3.0-EDA.ipynb
         4.0-Reflection-References.ipynb
 
