@@ -11,7 +11,7 @@ def tmdb_rating(movie):
         return [movie, 0]
 
 movies = pd.read_csv('data/processed/data.csv')['title'].tolist()
-with ThreadPoolExecutor(max_workers=40) as p:
+with ThreadPoolExecutor(max_workers=20) as p:
     data = list(p.map(tmdb_rating, movies))
 
 data = pd.DataFrame(data, columns=['title', 'rating'])

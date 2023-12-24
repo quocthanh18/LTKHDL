@@ -17,18 +17,20 @@ CC0: Public Domain
 ## Structure
 ```
 +---data
-¦   +---processed
-¦   ¦       data.csv
-¦   ¦       
-¦   +---raw
-¦           data.csv
-¦           
+|   +---processed
+|   |       data.csv
+|   |       
+|   +---raw
+|           data.csv
+|           
 +---notebooks
-        1.0-Introduction.ipynb
-        2.0-Preprocessing.ipynb
-        3.0-EDA.ipynb
-        4.0-Reflection-References.ipynb
-
+|       1.0-Introduction.ipynb
+|       2.0-Preprocessing.ipynb
+|       3.0-EDA.ipynb
+|       4.0-Reflection-References.ipynb
+|
++---scripts
+        tmdb.py
 ```
 
 ## Dataset overview
